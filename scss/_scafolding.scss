@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(196, 190, 190);
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.wrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    width: 100%;
+}
+
+.mn{
+    display: none;
+}
+
+.caca{
+    padding-bottom: 15px;
+    border: 1px solid #F2F2F2;
+    box-shadow: -8px -8px 15px grey, 8px 8px 15px rgba(0, 0, 0, 0.05);
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cl{
+    font-size: 24px;
+    padding: 5px 0;
+    margin: 0;
+    color: orange;
+}
+
+.nw{
+    font-style: oblique;
+}
+
+.lc{
+    font-size: 16px;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+.item{
+    background-color: #fff;
+    display: flex;
+    width: 75%;
+    border: 1px solid #F2F2F2;
+    box-shadow: -8px -8px 15px grey, 8px 8px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px 0 0 0;
+    flex-direction: column;
+}
+
+.it{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-t{
+    font-size: 36px;
+    color: orange;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.txt{
+    font-size: 26px;
+    color: #000;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.btn{
+    width: 300px;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    background-color: #e58e13;
+    color: white;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.items{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.items_control{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(233, 230, 230);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.items_current{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(233, 230, 230);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.items_control:hover{
+    background-color: orange;
+}
+
+.alert{
+    display: none;
+}
+
+.alert-secondary{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    width: 100%;
+    background-color: rgb(233, 230, 230);
+    font-weight: bold;
+    padding: 50px 0;
+}
+
